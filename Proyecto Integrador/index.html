@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Responsive</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="logo.png" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a class="active" href="#inicio">Inicio</a></li>
+            <li><a href="#quiensoy">Sobre Mi</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#">-</a></li>
+            <li><a href="login.html">Ingresar</a></li>
+            <li><a href="register.html">Registrarme</a></li>
+        </ul>
+    </nav>
+    
+    <div class="seccion1" id="inicio"> 
+        <div class="seccion1-hijo">
+            <h1 class="text-flicker-in-glow">Porfolio Dev.</h1>
+        </div>
+      </div>
+    
+      <div class="seccion2" id="quiensoy">
+        <div class="seccion2-hijo1">
+          <img src="jf.png" alt="">
+        </div>
+    
+        <div class="seccion2-hijo2">
+          <h2>Juan Francisco Natale</h2>
+          <p>
+            Hola! Que tal? Como ya pudieron ver me llamo Juan Francisco Natale. Soy de Necochea, provincia de Buenos Aires, Argentina. Si hay algo que me caracteriza es la curiosidad, me gusta aprender cosas nuevas y estar siempre en continua formación. Realice la carrera de Diseño Digital en @coderhouse, la cual consto de 3 cursos, siendo estos: Desarrollo Web, Photoshop & Illustrator, y Diseño UX/UI. Ademas, realice capacitaciones en WordPress, Metodologías Ágiles y Community Manager.
+            Actualmente me encuentro estudiando Programacion Full Stack en NUCBA.
+            Me encanta trabajar en equipo y realmente más que proyectos freelance, busco formar parte de algo más grande y profesional. Poder aprender de gente que posea más experiencia y adentrarme de lleno en la era del Home Office y el mundo digital.
+          </p>
+        </div>
+      </div>
+
+      <div class="skills" id="skills">
+        <h2>Skilss</h2>
+      </div>
+    
+      <div class="seccion3 parent1">
+        <div>
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="">
+        </div>
+        <div>
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="">
+        </div>
+        <div>
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="">
+        </div>
+        <div>
+          <img src="https://cdn-icons-png.flaticon.com/512/753/753244.png" alt="">
+        </div>
+      </div>
+
+      <div class="proyectos" id="proyectos">
+        <h2>Proyectos</h2>
+      </div>
+    
+      <div class="seccion5">
+        <div>
+          <img src="proyecto1.png" alt="">
+        </div>
+        <div>
+          <img src="proyecto2.png" alt="">
+        </div>
+        <div>
+          <img src="proyecto3.png" alt="">
+        </div>
+        <div>
+          <img src="proyecto4.jpg" alt="">
+        </div>
+        <div>
+          <img src="proyecto5.png" alt="">
+        </div>
+        <div>
+          <img src="proyecto6.png" alt="">
+        </div>
+      </div>
+
+      <div class="seccion6" id="contacto">
+        <h2>Contacto</h2>
+        <form action="">
+          <div>
+            <label for="nombre">Nombre:</label> 
+            <input id="nombre" type="text" name="name">
+    
+            <label for="apellido">Apellido:</label> 
+            <input id="apellido" type="text" name="apellido">
+          </div>
+          <div>
+            <label for="email">Email:</label> <br>
+            <input id="email" type="text" name="email">
+          </div>
+          <div>
+            <label for="mensaje">Mensaje:</label> <br>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10">
+             
+            </textarea>
+          </div>
+            <input type="submit">
+        </form>
+      </div>
+
+      <div class="seccion7">
+        <p>Diseñado por </p>
+        <a>Juan Francisco Natale</a>
+      </div>
+      
+</body>
+</html>
